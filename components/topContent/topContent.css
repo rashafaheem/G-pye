@@ -1,0 +1,26 @@
+.captainToadImage {
+  width: 100%;
+  height: auto;
+}
+.topContentGrid {
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.subtitle {
+  width: 400px;
+}
+
+.getStartedButton {
+  background: #fd8b19;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  color: #ffffff;
+}
