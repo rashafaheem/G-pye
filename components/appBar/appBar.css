@@ -1,0 +1,43 @@
+.appBarGrid1 {
+  background: #028788;
+  width: 100%;
+  height: auto;
+}
+
+.itemsGrid1 {
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerMenu {
+  float: right;
+  color: #ffffff;
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.appBarGrid2 {
+  background: #35c3b3;
+  width: 100%;
+  height: auto;
+}
+
+.itemsGrid2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.joinNowButton {
+  position: relative;
+  float: right;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
