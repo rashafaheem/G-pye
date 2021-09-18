@@ -37,6 +37,26 @@ function LongCard(props) {
   );
 }
 
+function ImageCard(props) {
+  return (
+    <div>
+      <Grid container>
+        <Grid item xs={12}>
+          <Card className="imageCard">
+            <Card className="imageCardHeader"></Card>
+            <div className="cardImageDiv">
+              <img className="cardImage" src={props.cardImage} />
+            </div>
+            <h3 className="ageTitle">{props.ageTitle}</h3>
+            <p className="subtitle3">{props.subtitle3}</p>
+            <p className="subtitle4">{props.subtitle4}</p>
+          </Card>
+        </Grid>
+      </Grid>
+    </div>
+  );
+}
+
 function ThirdContent() {
   return (
     <div>
@@ -47,33 +67,73 @@ function ThirdContent() {
             Advantage
           </h3>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <LongCard
             paperTitle="Best Teachers"
             src1="./Ellipse.png"
             // src2="./world.png"
           />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <LongCard
             paperTitle="Practice Test"
             src1="./Ellipse 6.png"
             // src2="./world.png"
           />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <LongCard
             paperTitle="Innovative LMS"
             src1="./Ellipse 7.png"
             // src2="./world.png"
           />
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <LongCard
             paperTitle="Virtual Labs"
             src1="./Ellipse 6.png"
             // src2="./world.png"
           />
+          <br />
+          <br />
+          <br />
+          <br />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <ImageCard
+            cardImage="screen (1).png"
+            ageTitle="Ages 5-7"
+            subtitle3="Voice instructions"
+            subtitle4="Get started with code!
+          Solve logic problems
+          Create simple apps
+          Master coding basics"
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <ImageCard
+            cardImage="screen (2).png"
+            ageTitle="Ages 8-13"
+            subtitle3="Drag and drop coding"
+            subtitle4="Build apps and games
+            Explore STEM projects
+            Design Minecraft mods
+            Control robots,drones"
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <ImageCard
+            cardImage="screen (3).png"
+            ageTitle="Ages 5-7"
+            subtitle3="Real-world coding"
+            subtitle4="JavaScript and Python
+            Web dev with HTML,CSS
+            Learn data structures
+            Prep for AP Comp Sc."
+          />
+        </Grid>
+        <Grid item xs={12} className="exploreButtonGrid">
+          <button className="exploreButton">EXPLORE COURSES </button>
         </Grid>
       </Grid>
     </div>
