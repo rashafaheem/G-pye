@@ -1,0 +1,93 @@
+.fifthContainer {
+  background: #f3f5fa;
+}
+
+.classGrid {
+  display: inline-block;
+  padding-top: 50px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.classCard {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background: #e2ecf3;
+  border-radius: 14px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.classesButton {
+  background: #e2ecf3;
+  border-radius: 9px;
+  border: none;
+  width: 230px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  color: #448ede;
+}
+
+.classesButton:hover {
+  background: #ffffff;
+  transition: all 0.4s ease 0s;
+}
+
+.accountCardsDiv {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.accountCards {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.125em;
+  color: #ffdf8f;
+}
+
+.heading {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.topicsCovered {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0.13em;
+  color: #000000;
+}
+
+.topics {
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #afb4ba;
+}
