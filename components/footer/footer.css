@@ -1,0 +1,87 @@
+.footer {
+  width: "100%";
+  margin-top: -270px;
+}
+
+.footerGrid {
+  background: #51c6be;
+  width: "100%";
+  padding-top: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.Fsubtext {
+  font-family: Nunito;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtextGrid2 {
+  margin-top: 50px;
+  padding-right: 20px;
+}
+
+.getLinkCard {
+  align-items: center;
+  text-align: center;
+  min-width: 300px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.getLinkText {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.getLinkButton {
+  background: #51c6be;
+  padding: 15px;
+  width: 130px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  float: right;
+  letter-spacing: 1px;
+  font-family: Nunito;
+  font-style: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.socialIcons {
+  color: white;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.storeImage {
+  width: 150px;
+  height: auto;
+  margin-right: 7px;
+  margin-bottom: 40px;
+}
+
+a {
+  cursor: pointer;
+}
