@@ -53,6 +53,8 @@
 .accountCards {
   padding-left: 20px;
   padding-right: 20px;
+  background: #ffffff;
+  border-radius: 20px;
 }
 
 .title {
@@ -101,6 +103,11 @@
   color: #e193a2;
 }
 
+.toolsGrid {
+  display: inline;
+  vertical-align: middle;
+}
+
 .tools {
   font-family: Nunito;
   font-style: normal;
@@ -109,11 +116,109 @@
   color: #000000;
 }
 
+.toolImage {
+  display: inline;
+  vertical-align: middle;
+}
+
 .toolName {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 120%;
+  padding-left: 8px;
+  color: #afb4ba;
+}
+
+.projectDiv {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.projects {
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #afb4ba;
+}
+
+.offCard {
+  width: 91px;
+  height: auto;
+  background: #e8ffdf;
+  border-radius: 13px;
+}
+
+.off {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 120%;
+  text-align: center;
+  color: #bad799;
+}
+
+.amount {
+  display: inline;
   font-family: Nunito;
   font-style: normal;
   font-weight: 600;
-  /* font-size: 14px; */
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.cutAmount {
+  display: inline-block;
+  font-family: Nunito;
+  font-style: normal;
+  text-decoration: line-through;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  padding-left: 30px;
+  color: #d7d9dc;
+}
+
+.classes {
+  display: flex;
+  font-family: Nunito;
+  font-style: normal;
+  padding-bottom: 40px;
+}
+
+.classCount {
+  font-size: 14px;
   line-height: 120%;
   color: #afb4ba;
+}
+
+.perPerson {
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: #afb4ba;
+}
+
+.joinCardButton {
+  width: 100%;
+  height: 45px;
+  background: #61b920;
+  border-radius: 19px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.joinCardButtonGrid {
+  padding-bottom: 30px;
 }

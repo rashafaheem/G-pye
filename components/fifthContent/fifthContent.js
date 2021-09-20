@@ -10,27 +10,47 @@ function AccountCards(props) {
         <p className="topics">{props.topics}</p>
         <h4 className="inclusive">{props.inclusive}</h4>
         <h3 className="tools">TOOLS</h3>
-        <Grid item xs={6}>
-          <img className="toolImage" src={props.toolImage1} />
-          <p className="toolName">{props.toolName1}</p>
+        <Grid container>
+          <Grid item xs={6} className="toolsGrid">
+            <img className="toolImage" src={props.toolImage1} />
+            <p className="toolName">{props.toolName1}</p>
+          </Grid>
+          <Grid item xs={6} className="toolsGrid">
+            <img className="toolImage" src={props.toolImage2} />
+            <p className="toolName">{props.toolName2}</p>
+          </Grid>
+          <Grid item xs={6} className="toolsGrid">
+            <img className="toolImage" src={props.toolImage3} />
+            <p className="toolName">{props.toolName3}</p>
+          </Grid>
+          <Grid item xs={6} className="toolsGrid">
+            <img className="toolImage" src={props.toolImage4} />
+            <p className="toolName">{props.toolName4}</p>
+          </Grid>
+          <Grid item xs={6} className="toolsGrid">
+            <img className="toolImage" src={props.toolImage5} />
+            <p className="toolName">{props.toolName5}</p>
+          </Grid>
         </Grid>
-        <Grid item xs={6}>
-          <img className="toolImage" src={props.toolImage2} />
-          <p className="toolName">{props.toolName2}</p>
-        </Grid>
-        <Grid item xs={6}>
-          <img className="toolImage" src={props.toolImage3} />
-          <p className="toolName">{props.toolName3}</p>
-        </Grid>
-        <h3 className="tools">PROJECTS</h3>
-        <p className="projects">{props.projects}</p>
-        <Card className="offCard">
+        <div className="projectDiv">
+          <h3 className="tools">PROJECTS</h3>
+          <Grid item xs={12} className="">
+            <p className="projects">{props.projects}</p>
+          </Grid>
+        </div>
+        <Card className="offCard" elevation={0}>
           <p className="off">{props.off}</p>
         </Card>
+        <br />
         <h2 className="amount">{props.amount}</h2>
         <h2 className="cutAmount">{props.cutAmount}</h2>
-        <p className="classCount">{props.classCount}</p>
-        <p className="perPerson">{props.perPerson}</p>
+        <div className="classes">
+          <p className="classCount">{props.classCount}</p>
+          <p className="perPerson">{props.perPerson}</p>
+        </div>
+        <Grid item xs={12} className="joinCardButtonGrid">
+          <button className="joinCardButton">Join Now</button>
+        </Grid>
       </Card>
     </div>
   );
@@ -65,15 +85,56 @@ function FifthContent() {
             toolName1="Code.org"
             toolImage2="./Ellipse 23.png"
             toolName2="Scratch"
+            projects="Code Story"
+            off="7% OFF"
+            amount="₹5,600"
+            cutAmount="₹6,000"
+            classCount="8 Classes"
+            perPerson="₹700 per person"
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <AccountCards
+            title="STANDARD"
+            heading="Design and Create"
+            topics="Events , Characters, Interactive apps and games"
+            inclusive="Inclusive of topics covered in Design and Create"
+            toolImage1="./Ellipse 21.png"
+            toolName1="Code.org"
+            toolImage2="./Ellipse 23.png"
+            toolName2="Scratch"
             toolImage3="./Ellipse 22.png"
             toolName3="AppLab"
-            projects=""
-            offCard=""
-            off=""
-            amount=""
-            cutAmount=""
-            classCount=""
-            perPerson=""
+            projects="Code Story. Pocket-money manager. Soundboard Quiz app ."
+            off="11% OFF"
+            amount="₹32,000"
+            cutAmount="₹36,000"
+            classCount="48 Classes"
+            perPerson="₹667 per session"
+          />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <AccountCards
+            title="PREMIUM"
+            heading="App & Game Development"
+            topics="Multiscreen native utility apps,AI chatbots,Complex game development"
+            inclusive="Inclusive of topics covered in Design and Create"
+            toolImage1="./Ellipse 21.png"
+            toolName1="Code.org"
+            toolImage2="./Ellipse 23.png"
+            toolName2="Scratch"
+            toolImage3="./Ellipse 22.png"
+            toolName3="AppLab"
+            toolImage4="./Ellipse 20.png"
+            toolName4="GameLab"
+            toolImage5="./Ellipse 18.png"
+            toolName5="Thunkable"
+            projects="Code Story. Pocket-money manager. Soundboard Quiz app . Bubble shooter . Portfolio Mobile app . Unit Converter. "
+            off="12% OFF"
+            amount="₹95,000"
+            cutAmount="₹100,000"
+            classCount="144 Classes"
+            perPerson="₹660 per session"
           />
         </Grid>
       </Grid>
