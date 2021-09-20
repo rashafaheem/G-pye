@@ -4,6 +4,7 @@ import SecondContent from "../components/secondContent/secondContent.js";
 import ThirdContent from "../components/thirdContent/thirdContent.js";
 import FourthContent from "../components/fourthContent/fourthContent.js";
 import FifthContent from "../components/fifthContent/fifthContent.js";
+import EndContent from "../components/endContent/endContent.js";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ThirdContent />
       <FourthContent />
       <FifthContent />
+      <EndContent />
     </div>
   );
 }

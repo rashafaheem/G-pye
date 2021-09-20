@@ -5,6 +5,7 @@ import "../components/secondContent/secondContent.css";
 import "../components/thirdContent/thirdContent.css";
 import "../components/fourthContent/fourthContent.css";
 import "../components/fifthContent/fifthContent.css";
+import "../components/endContent/endContent.css";
 
 // import PropTypes from "prop-types";
 // import Head from "next/head";
