@@ -40,7 +40,8 @@
 .getLinkCard {
   align-items: center;
   text-align: center;
-  min-width: 300px;
+  width: 100%;
+  height: auto;
   margin: auto;
   padding: 10px;
   border-radius: 10px;
@@ -80,6 +81,7 @@
   height: auto;
   margin-right: 7px;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 a {

@@ -13,7 +13,7 @@
   margin: auto;
   padding-top: 70px;
   padding-bottom: 100px;
-  width: 750px;
+  max-width: 750px;
   color: #000000;
 }
 
@@ -21,11 +21,16 @@
   color: #51c6be;
 }
 
+.marketingCardGrid {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .marketingCard {
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
-  padding: 55px;
+  padding: 10px;
   height: auto;
   width: auto;
   margin: auto;
@@ -44,7 +49,6 @@
   position: absolute;
   margin-left: -50px;
   width: 20px;
-  /* padding: 10px; */
   margin: auto;
   vertical-align: middle;
 }
@@ -69,7 +73,7 @@
   line-height: 129.9%;
   align-items: center;
   color: #d0d0d0;
-  width: 250px;
+  max-width: 250px;
 }
 
 .joinButtonGrid {
@@ -81,13 +85,14 @@
 
 .joinButton {
   background: #51c6be;
-  width: 400px;
+  max-width: 400px;
   padding: 15px;
   border-radius: 8px;
   border: none;
   font-family: Nunito;
   font-style: normal;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .arrowIcon {

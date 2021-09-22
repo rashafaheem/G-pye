@@ -60,7 +60,7 @@ function FifthContent() {
   return (
     <div>
       <Grid container className="fifthContainer">
-        <Grid item md={7} className="classGrid">
+        <Grid item xs={12} md={7} className="classGrid">
           <Card className="classCard">
             <Grid item xs={12} md={4}>
               <button className="classesButton">CLASSES 1-4</button>
@@ -78,14 +78,15 @@ function FifthContent() {
           <AccountCards
             title="BASIC"
             heading="Introduction to Coding"
-            topics="Sequence,Algorithms,Debugging,Code  Art,
-          Animations"
-            inclusive=""
+            topics="Sequence,Algorithms,Debugging,Code Art"
+            inclusive="Inclusive of topics covered in Design and Create"
             toolImage1="./Ellipse 21.png"
             toolName1="Code.org"
             toolImage2="./Ellipse 23.png"
             toolName2="Scratch"
-            projects="Code Story"
+            toolImage3="./Ellipse 20.png"
+            toolName3="GameLab"
+            projects="Code Story. Pocket-money manager. Soundboard Quiz app."
             off="7% OFF"
             amount="₹5,600"
             cutAmount="₹6,000"
@@ -117,7 +118,7 @@ function FifthContent() {
           <AccountCards
             title="PREMIUM"
             heading="App & Game Development"
-            topics="Multiscreen native utility apps,AI chatbots,Complex game development"
+            topics="Multiscreen native utility apps,AI chatbots"
             inclusive="Inclusive of topics covered in Design and Create"
             toolImage1="./Ellipse 21.png"
             toolName1="Code.org"
@@ -125,11 +126,7 @@ function FifthContent() {
             toolName2="Scratch"
             toolImage3="./Ellipse 22.png"
             toolName3="AppLab"
-            toolImage4="./Ellipse 20.png"
-            toolName4="GameLab"
-            toolImage5="./Ellipse 18.png"
-            toolName5="Thunkable"
-            projects="Code Story. Pocket-money manager. Soundboard Quiz app . Bubble shooter . Portfolio Mobile app . Unit Converter. "
+            projects="Code Story. Pocket-money manager. Soundboard Quiz app."
             off="12% OFF"
             amount="₹95,000"
             cutAmount="₹100,000"

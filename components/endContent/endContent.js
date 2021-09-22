@@ -19,9 +19,8 @@ function EndContent() {
         <Grid item xs={12} md={9}>
           <img className="screens" src="./screens.png" />
         </Grid>
-        <div className="whiteContainerDiv">
-          <Grid container className="whiteContainer">
-            <Card className="exploreCard2" elevation={0} />
+        <Grid container className="whiteContainer">
+          <Grid item xs={12} md={9} className="exploreCardGrid">
             <Card className="exploreCard" elevation={0}>
               <Grid container className="">
                 <Grid item xs={12} md={6} className="cardContentDiv">
@@ -58,7 +57,7 @@ function EndContent() {
               </Grid>
             </Card>
           </Grid>
-        </div>
+        </Grid>
       </Grid>
     </div>
   );

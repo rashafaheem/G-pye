@@ -27,9 +27,11 @@ function Footer() {
         <Grid item xs={12} md={4} className="subtextGrid2" />
         <Grid item xs={12} md={4} className="subtextGrid3">
           <p className="getLinkText">GET LINKS IN SMS TO DOWNLOAD APP</p>
-          <Card className="getLinkCard">
-            <button className="getLinkButton">GET LINK</button>
-          </Card>
+          <Grid item xs={12} className="getLinkCardGrid">
+            <Card className="getLinkCard">
+              <button className="getLinkButton">GET LINK</button>
+            </Card>
+          </Grid>
           <p className="getLinkText">FIND US ON</p>
           <TwitterIcon className="socialIcons" />
           <FacebookIcon className="socialIcons" />

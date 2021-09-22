@@ -14,40 +14,42 @@ function secondContent() {
           </h3>
         </Grid>
         <Grid container>
-          <Card className="marketingCard">
-            <Grid xs={12} md={3}>
-              <SecondProps
-                miniImage="./Ellipse.png"
-                // miniImage2="./world.png"
-                miniTitle="Online Lessons"
-                miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
-              />
-            </Grid>
-            <Grid xs={12} md={3}>
-              <SecondProps
-                miniImage="./Ellipse 6.png"
-                // miniImage2="./Vector.png"
-                miniTitle="Genius Test"
-                miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
-              />
-            </Grid>
-            <Grid xs={12} md={3}>
-              <SecondProps
-                miniImage="./Ellipse 7.png"
-                // miniImage2="./Vector (1).png"
-                miniTitle="Test & Analysis"
-                miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
-              />
-            </Grid>
-            <Grid xs={12} md={3}>
-              <SecondProps
-                miniImage="./Ellipse 8.png"
-                // miniImage2="./Vector (2).png"
-                miniTitle="Personalized Learning"
-                miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
-              />
-            </Grid>
-          </Card>
+          <Grid xs={12} className="marketingCardGrid">
+            <Card className="marketingCard">
+              <Grid xs={12} md={3}>
+                <SecondProps
+                  miniImage="./Ellipse.png"
+                  // miniImage2="./world.png"
+                  miniTitle="Online Lessons"
+                  miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
+                />
+              </Grid>
+              <Grid xs={12} md={3}>
+                <SecondProps
+                  miniImage="./Ellipse 6.png"
+                  // miniImage2="./Vector.png"
+                  miniTitle="Genius Test"
+                  miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
+                />
+              </Grid>
+              <Grid xs={12} md={3}>
+                <SecondProps
+                  miniImage="./Ellipse 7.png"
+                  // miniImage2="./Vector (1).png"
+                  miniTitle="Test & Analysis"
+                  miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
+                />
+              </Grid>
+              <Grid xs={12} md={3}>
+                <SecondProps
+                  miniImage="./Ellipse 8.png"
+                  // miniImage2="./Vector (2).png"
+                  miniTitle="Personalized Learning"
+                  miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
+                />
+              </Grid>
+            </Card>
+          </Grid>
         </Grid>
         <Grid item xs={12} className="joinButtonGrid">
           <button className="joinButton">
