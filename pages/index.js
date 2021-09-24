@@ -1,4 +1,4 @@
-import AppBar from "../components/appBar/appBar.js";
+import Header from "../components/appBar/header.js";
 import TopContent from "../components/topContent/topContent.js";
 import SecondContent from "../components/secondContent/secondContent.js";
 import ThirdContent from "../components/thirdContent/thirdContent.js";
@@ -10,7 +10,7 @@ import Footer from "../components/footer/footer.js";
 export default function Home() {
   return (
     <div>
-      <AppBar />
+      <Header />
       <TopContent />
       <SecondContent />
       <ThirdContent />

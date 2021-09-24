@@ -16,7 +16,7 @@ function secondContent() {
         <Grid container>
           <Grid xs={12} className="marketingCardGrid">
             <Card className="marketingCard">
-              <Grid xs={12} md={3}>
+              <Grid xs={12} md={4}>
                 <SecondProps
                   miniImage="./Ellipse.png"
                   // miniImage2="./world.png"
@@ -24,7 +24,7 @@ function secondContent() {
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              <Grid xs={12} md={3}>
+              <Grid xs={12} md={4}>
                 <SecondProps
                   miniImage="./Ellipse 6.png"
                   // miniImage2="./Vector.png"
@@ -32,7 +32,7 @@ function secondContent() {
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              <Grid xs={12} md={3}>
+              <Grid xs={12} md={4}>
                 <SecondProps
                   miniImage="./Ellipse 7.png"
                   // miniImage2="./Vector (1).png"
@@ -40,14 +40,14 @@ function secondContent() {
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              <Grid xs={12} md={3}>
+              {/* <Grid xs={12} md={3}>
                 <SecondProps
                   miniImage="./Ellipse 8.png"
                   // miniImage2="./Vector (2).png"
                   miniTitle="Personalized Learning"
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
-              </Grid>
+              </Grid> */}
             </Card>
           </Grid>
         </Grid>
