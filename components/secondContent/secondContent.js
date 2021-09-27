@@ -40,14 +40,14 @@ function secondContent() {
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              {/* <Grid xs={12} md={3}>
+              <Grid xs={12} md={3}>
                 <SecondProps
                   miniImage="./Ellipse 8.png"
                   // miniImage2="./Vector (2).png"
                   miniTitle="Personalized Learning"
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
-              </Grid> */}
+              </Grid>
             </Card>
           </Grid>
         </Grid>
