@@ -60,7 +60,7 @@ function FifthContent() {
   return (
     <div>
       <Grid container className="fifthContainer">
-        <Grid item xs={12} md={7} className="classGrid">
+        {/* <Grid item xs={12} md={7} className="classGrid">
           <Card className="classCard">
             <Grid item xs={12} md={4}>
               <button className="classesButton">CLASSES 1-4</button>
@@ -72,7 +72,7 @@ function FifthContent() {
               <button className="classesButton">CLASSES 9-12</button>
             </Grid>
           </Card>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} />
         <Grid item xs={12} md={4}>
           <AccountCards
@@ -98,7 +98,7 @@ function FifthContent() {
           <AccountCards
             title="STANDARD"
             heading="Design and Create"
-            topics="Events , Characters, Interactive apps and games"
+            topics="Events , Characters, Interactive apps"
             inclusive="Inclusive of topics covered in Design and Create"
             toolImage1="./Ellipse 21.png"
             toolName1="Code.org"
