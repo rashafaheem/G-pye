@@ -3,15 +3,18 @@
   height: auto;
 }
 .topContentGrid {
-  margin-top: -400px;
-  margin-left: 20px;
   font-family: Nunito;
   font-style: normal;
   color: #ffffff;
+  position: absolute;
+  top: 60%;
+  left: 250px;
+  transform: translate(-50%, -50%);
 }
 
 .subtitle {
   max-width: 400px;
+  font-size: 19px;
 }
 
 .getStartedButton {
@@ -22,17 +25,27 @@
   font-family: Nunito;
   font-style: normal;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.getStartedButton:hover {
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 @media (max-width: 648px) {
   .topContentDiv {
-    position: relative;
-    margin-top: 400px;
-    margin-bottom: -70px;
     color: #000000;
   }
 
   .topContentGrid {
     color: #030303;
+    position: relative;
+    left: 50px;
+    padding-left: 130px;
+    padding-bottom: 140px;
   }
 }

@@ -43,13 +43,19 @@ function ImageCard(props) {
       <Grid container>
         <Grid item xs={12}>
           <Card className="imageCard">
-            <Card className="imageCardHeader"></Card>
+            <Card
+              className="imageCardHeader"
+              // styles={{ background: "linear-gradient(#ACDBFC, #56A2D9);" }}
+            ></Card>
             <div className="cardImageDiv">
               <img className="cardImage" src={props.cardImage} />
             </div>
             <h3 className="ageTitle">{props.ageTitle}</h3>
             <p className="subtitle3">{props.subtitle3}</p>
             <p className="subtitle4">{props.subtitle4}</p>
+            <p className="subtitle5">{props.subtitle5}</p>
+            <p className="subtitle5">{props.subtitle6}</p>
+            <p className="subtitle5">{props.subtitle7}</p>
           </Card>
         </Grid>
       </Grid>
@@ -126,10 +132,10 @@ function ThirdContent() {
             cardImage="screen (3).png"
             ageTitle="Ages 5-7"
             subtitle3="Real-world coding"
-            subtitle4="JavaScript and Python
-            Web dev with HTML,CSS
-            Learn data structures
-            Prep for AP Comp Sc."
+            subtitle4="JavaScript and Python"
+            subtitle5="Web dev with HTML,CSS"
+            subtitle6="Learn data structures"
+            subtitle7=" Prep for AP Comp Sc."
           />
         </Grid>
         <Grid item xs={12} className="exploreButtonGrid">
