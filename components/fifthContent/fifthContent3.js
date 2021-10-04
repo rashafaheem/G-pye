@@ -56,7 +56,7 @@ function AccountCards(props) {
   );
 }
 
-function FifthContent() {
+function FifthContent3() {
   return (
     <div>
       <Grid container className="fifthContainer">
@@ -64,7 +64,7 @@ function FifthContent() {
         <Grid item xs={12} md={4}>
           <AccountCards
             title="BASIC"
-            heading="Introduction to Coding"
+            heading="Introduction to React"
             topics="Sequence,Algorithms,Debugging,Code Art"
             inclusive="Inclusive of topics covered in Design and Create"
             toolImage1="./Ellipse 21.png"
@@ -75,16 +75,16 @@ function FifthContent() {
             toolName3="GameLab"
             projects="Code Story. Pocket-money manager. Soundboard Quiz app."
             off="7% OFF"
-            amount="₹5,600"
-            cutAmount="₹6,000"
-            classCount="8 Classes"
-            perPerson="₹700 per person"
+            amount="₹7,600"
+            cutAmount="₹8,000"
+            classCount="9 Classes"
+            perPerson="₹750 per person"
           />
         </Grid>
         <Grid item xs={12} md={4}>
           <AccountCards
             title="STANDARD"
-            heading="Design and Create"
+            heading="Responsive"
             topics="Events , Characters, Interactive apps"
             inclusive="Inclusive of topics covered in Design and Create"
             toolImage1="./Ellipse 21.png"
@@ -94,17 +94,17 @@ function FifthContent() {
             toolImage3="./Ellipse 22.png"
             toolName3="AppLab"
             projects="Code Story. Pocket-money manager. Soundboard Quiz app ."
-            off="11% OFF"
-            amount="₹32,000"
-            cutAmount="₹36,000"
-            classCount="48 Classes"
-            perPerson="₹667 per session"
+            off="12% OFF"
+            amount="₹39,000"
+            cutAmount="₹42,000"
+            classCount="49 Classes"
+            perPerson="₹693 per session"
           />
         </Grid>
         <Grid item xs={12} md={4}>
           <AccountCards
             title="PREMIUM"
-            heading="App & Game Development"
+            heading="App Development"
             topics="Multiscreen native utility apps,AI chatbots"
             inclusive="Inclusive of topics covered in Design and Create"
             toolImage1="./Ellipse 21.png"
@@ -114,11 +114,11 @@ function FifthContent() {
             toolImage3="./Ellipse 22.png"
             toolName3="AppLab"
             projects="Code Story. Pocket-money manager. Soundboard Quiz app."
-            off="12% OFF"
-            amount="₹95,000"
-            cutAmount="₹100,000"
-            classCount="144 Classes"
-            perPerson="₹660 per session"
+            off="14% OFF"
+            amount="₹98,000"
+            cutAmount="₹140,000"
+            classCount="155 Classes"
+            perPerson="₹690 per session"
           />
         </Grid>
       </Grid>
@@ -126,4 +126,4 @@ function FifthContent() {
   );
 }
 
-export default FifthContent;
+export default FifthContent3;

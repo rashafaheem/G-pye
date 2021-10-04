@@ -5,7 +5,8 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import FifthContent from "./fifthContent.js";
-import { Card, Grid } from "@mui/material";
+import FifthContent2 from "./fifthContent2.js";
+import FifthContent3 from "./fifthContent3.js";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -50,52 +51,67 @@ export default function BasicTabs() {
   return (
     <Box className="mainBox">
       {/* sx={{ width: "100%" }} */}
-      <Box>
+      <Box className="classCard">
         {/* sx={{ borderBottom: 1, borderColor: "divider" }} */}
         <Tabs
+          centered
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          <Grid item xs={12} md={7} className="classGrid">
-            <Card className="classCard">
-              <Grid item xs={12} md={4}>
-                <Tab
-                  label={<button className="classesButton">CLASSES 1-4</button>}
-                  {...a11yProps(0)}
-                />
-              </Grid>
-              <Grid item xs={12} md={4}>
-                <Tab
-                  label={<button className="classesButton">CLASSES 5-8</button>}
-                  {...a11yProps(1)}
-                />
-              </Grid>
-              <Grid item xs={12} md={4}>
-                <Tab
-                  label={
-                    <button className="classesButton">CLASSES 9-12</button>
-                  }
-                  {...a11yProps(2)}
-                />
-              </Grid>
-            </Card>
-          </Grid>
-
-          {/* <Tab label="Item One" {...a11yProps(0)} /> */}
-          {/* <Tab label="Item Two" {...a11yProps(1)} /> */}
-          {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
+          {/* <Grid item xs={12} md={7} className="classGrid"> */}
+          {/* <Card > */}
+          {/* <Grid item xs={12} md={4}> */}
+          <Tab
+            style={{
+              backgroundColor: value === 0 ? "#fff" : "transparent",
+              fontWeight: "bold",
+              borderRadius: 5,
+              flex: 1,
+              display: "flex",
+              margin: 0,
+            }}
+            label="CLASSES 1-4"
+            {...a11yProps(0)}
+          />
+          {/* </Grid> */}
+          {/* <Grid item xs={12} md={4}> */}
+          <Tab
+            style={{
+              backgroundColor: value === 1 ? "#fff" : "transparent",
+              fontWeight: "bold",
+              borderRadius: 5,
+              flex: 1,
+              display: "flex",
+              margin: 0,
+            }}
+            label="CLASSES 5-8"
+            {...a11yProps(1)}
+          />
+          {/* </Grid> */}
+          {/* <Grid item xs={12} md={4}> */}
+          <Tab
+            style={{
+              backgroundColor: value === 2 ? "#fff" : "transparent",
+              fontWeight: "bold",
+              borderRadius: 5,
+              flex: 1,
+              display: "flex",
+              margin: 0,
+            }}
+            label="CLASSES 9-12"
+            {...a11yProps(2)}
+          />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        {/* <FifthContent /> */}
+        <FifthContent />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        {/* hellooig */}
-        {/* <FifthContent /> */}
+        <FifthContent2 />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <FifthContent />
+        <FifthContent3 />
       </TabPanel>
     </Box>
   );
