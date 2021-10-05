@@ -29,9 +29,8 @@
 .cardHeaderPaper {
   width: 100%;
   height: auto;
-  border-radius: 0px;
+  border-radius: 12px 12px 0px 0px;
   box-shadow: 0px 7px 4px rgba(0, 0, 0, 0);
-  background: linear-gradient(180deg, #acdbfc 0%, #56a2d9 56%);
 }
 
 .paperTitle {
@@ -107,7 +106,12 @@
 .imageCard {
   box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
-  min-height: 485px;
+  max-height: 390px;
+}
+
+.imageCardHeaderDiv {
+  position: relative;
+  z-index: 0;
 }
 
 .imageCardHeader {
@@ -115,17 +119,24 @@
   height: 150px;
   border-radius: 0px;
   box-shadow: 0px 7px 4px rgba(0, 0, 0, 0);
-  background: #7562a8;
 }
 
 .cardImageDiv {
-  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .cardImage {
-  width: 200px;
+  width: 20%;
   height: auto;
+  position: absolute;
+  text-align: center;
   margin-top: -120px;
+}
+
+.allContents {
+  margin-top: 130px;
+  margin-bottom: 120px;
 }
 
 .ageTitle {
@@ -156,7 +167,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 35px;
-  /* padding-bottom: 40px; */
   margin: auto;
   align-items: center;
   text-align: center;
@@ -170,11 +180,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 35px;
-  /* padding-bottom: 40px; */
   margin: auto;
   align-items: center;
   text-align: center;
-  /* max-width: 210px; */
   color: #000000;
 }
 
@@ -210,5 +218,13 @@
   .thirdContentContainer {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .cardImage {
+    width: 60%;
+    /* height: auto; */
+    /* position: absolute; */
+    /* text-align: center; */
+    margin-top: -100px;
   }
 }

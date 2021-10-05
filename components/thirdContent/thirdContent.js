@@ -1,4 +1,4 @@
-import { Card, Grid, Paper } from "@mui/material";
+import { Card, Grid } from "@mui/material";
 
 function LongCard(props) {
   return (
@@ -6,17 +6,6 @@ function LongCard(props) {
       <Grid container>
         <Grid item xs={12}>
           <Card className="longCard">
-            <Grid item xs={12}>
-              <Card className="cardHeaderPaper">
-                <Grid item xs={5}>
-                  <h3 className="paperTitle">{props.paperTitle}</h3>
-                </Grid>
-                <Grid item xs={7} className="scrs">
-                  <img className="src1" src={props.src1} />
-                  <img className="src2" src={props.src2} />
-                </Grid>
-              </Card>
-            </Grid>
             <h3 className="title2">Lorem Ipsum</h3>
             <p className="subtitle2">
               Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem
@@ -43,19 +32,17 @@ function ImageCard(props) {
       <Grid container>
         <Grid item xs={12}>
           <Card className="imageCard">
-            <Card
-              className="imageCardHeader"
-              // styles={{ background: "linear-gradient(#ACDBFC, #56A2D9);" }}
-            ></Card>
             <div className="cardImageDiv">
               <img className="cardImage" src={props.cardImage} />
             </div>
-            <h3 className="ageTitle">{props.ageTitle}</h3>
-            <p className="subtitle3">{props.subtitle3}</p>
-            <p className="subtitle4">{props.subtitle4}</p>
-            <p className="subtitle5">{props.subtitle5}</p>
-            <p className="subtitle5">{props.subtitle6}</p>
-            <p className="subtitle5">{props.subtitle7}</p>
+            <div className="allContents">
+              <h3 className="ageTitle">{props.ageTitle}</h3>
+              <p className="subtitle3">{props.subtitle3}</p>
+              <p className="subtitle4">{props.subtitle4}</p>
+              <p className="subtitle5">{props.subtitle5}</p>
+              <p className="subtitle5">{props.subtitle6}</p>
+              <p className="subtitle5">{props.subtitle7}</p>
+            </div>
           </Card>
         </Grid>
       </Grid>
@@ -74,38 +61,73 @@ function ThirdContent() {
           </h3>
         </Grid>
         <Grid item xs={12} md={3}>
-          <LongCard
-            paperTitle="Best Teachers"
-            src1="./Ellipse.png"
-            // src2="./world.png"
-          />
+          <Card
+            className="cardHeaderPaper"
+            style={{ background: "linear-gradient(#ACDBFC, #56A2D9)" }}
+          >
+            <Grid item xs={5}>
+              <h3 className="paperTitle">Best Teachers</h3>
+            </Grid>
+            <Grid item xs={7} className="scrs">
+              <img className="src1" src="./Ellipse.png" />
+            </Grid>
+          </Card>
+          <LongCard />
         </Grid>
         <Grid item xs={12} md={3}>
-          <LongCard
-            paperTitle="Practice Test"
-            src1="./Ellipse 6.png"
-            // src2="./world.png"
-          />
+          <Card
+            className="cardHeaderPaper"
+            style={{ background: "linear-gradient(#FA90B7, #F59186)" }}
+          >
+            <Grid item xs={5}>
+              <h3 className="paperTitle">Practice Test</h3>
+            </Grid>
+            <Grid item xs={7} className="scrs">
+              <img className="src1" src="./Ellipse 6.png" />
+            </Grid>
+          </Card>
+          <LongCard />
         </Grid>
         <Grid item xs={12} md={3}>
-          <LongCard
-            paperTitle="Innovative LMS"
-            src1="./Ellipse 7.png"
-            // src2="./world.png"
-          />
+          <Card
+            className="cardHeaderPaper"
+            style={{ background: "linear-gradient(#DBFEE5, #78D294)" }}
+          >
+            <Grid item xs={5}>
+              <h3 className="paperTitle">Innovative LMS</h3>
+            </Grid>
+            <Grid item xs={7} className="scrs">
+              <img className="src1" src="./Ellipse 7.png" />
+            </Grid>
+          </Card>
+          <LongCard />
         </Grid>
         <Grid item xs={12} md={3}>
-          <LongCard
-            paperTitle="Virtual Labs"
-            src1="./Ellipse 6.png"
-            // src2="./world.png"
-          />
+          <Card
+            className="cardHeaderPaper"
+            style={{ background: "linear-gradient(#FA90B5, #F59186)" }}
+          >
+            <Grid item xs={5}>
+              <h3 className="paperTitle">Virtual Labs</h3>
+            </Grid>
+            <Grid item xs={7} className="scrs">
+              <img className="src1" src="./Ellipse 6.png" />
+            </Grid>
+          </Card>
+          <LongCard />
+
           <br />
           <br />
           <br />
           <br />
         </Grid>
         <Grid item xs={12} md={4}>
+          <div className="imageCardHeaderDiv">
+            <Card
+              className="imageCardHeader"
+              style={{ background: "#7562A8" }}
+            />
+          </div>
           <ImageCard
             cardImage="screen (1).png"
             ageTitle="Ages 5-7"
@@ -117,6 +139,12 @@ function ThirdContent() {
           />
         </Grid>
         <Grid item xs={12} md={4}>
+          <div className="imageCardHeaderDiv">
+            <Card
+              className="imageCardHeader"
+              style={{ background: "#62B24E" }}
+            />
+          </div>
           <ImageCard
             cardImage="screen (2).png"
             ageTitle="Ages 8-13"
@@ -128,6 +156,12 @@ function ThirdContent() {
           />
         </Grid>
         <Grid item xs={12} md={4}>
+          <div className="imageCardHeaderDiv">
+            <Card
+              className="imageCardHeader"
+              style={{ background: "#DF6E47" }}
+            />
+          </div>
           <ImageCard
             cardImage="screen (3).png"
             ageTitle="Ages 5-7"

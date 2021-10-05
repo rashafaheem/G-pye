@@ -14,9 +14,7 @@
   height: auto;
   padding: 10px 10px;
   background: #e2ecf3;
-  /* display: flex; */
   border-radius: 14px;
-  /* justify-content: space-between; */
   margin: auto;
   align-items: center;
   text-align: center;
@@ -26,8 +24,6 @@
   background: #e2ecf3;
   border-radius: 9px;
   border: none;
-  /* width: 100%; */
-  /* max-width: 230px; */
   font-family: Nunito;
   font-style: normal;
   font-weight: bold;
@@ -53,6 +49,7 @@
   padding-right: 20px;
   background: #ffffff;
   border-radius: 20px;
+  min-height: 900px;
 }
 
 .title {
@@ -219,7 +216,7 @@
 }
 
 .joinCardButtonGrid {
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .mainBox {
