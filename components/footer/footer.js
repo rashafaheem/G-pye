@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="footer">
       <Grid container className="footerGrid">
-        <Grid item xs={12} md={2}>
+        <Grid item xs={6} md={2}>
           <h3 className="h3">QUICK LINKS</h3>
           <p className="Fsubtext">Ask</p>
           <p className="Fsubtext">Blog</p>
@@ -16,7 +16,7 @@ function Footer() {
           <p className="Fsubtext">Lorem Ipsum</p>
           <p className="Fsubtext">Lorem Ipsum</p>
         </Grid>
-        <Grid item xs={12} md={2} className="subtextGrid2">
+        <Grid item xs={6} md={2} className="subtextGrid2">
           <p className="Fsubtext">Lorem Ipsum</p>
           <p className="Fsubtext">Lorem Ipsum</p>
           <p className="Fsubtext">Lorem Ipsum</p>

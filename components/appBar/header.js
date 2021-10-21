@@ -18,17 +18,17 @@ const Header = () => {
                 </li>
               </Grid>
               <Grid item xs={1} className="itemsGrid1">
-                <li className="option" onClick={closeMobileMenu}>
+                <li className="option2" onClick={closeMobileMenu}>
                   <a href="#">EDUPYE</a>
                 </li>
               </Grid>
               <Grid item xs={1} className="itemsGrid1">
-                <li className="option" onClick={closeMobileMenu}>
+                <li className="option3" onClick={closeMobileMenu}>
                   <a href="#">EDUSHOP</a>
                 </li>
               </Grid>
               <Grid item xs={1} className="itemsGrid1">
-                <li className="option" onClick={closeMobileMenu}>
+                <li className="option4" onClick={closeMobileMenu}>
                   <a href="#">EDUOS</a>
                 </li>
               </Grid>

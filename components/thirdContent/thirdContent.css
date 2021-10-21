@@ -222,9 +222,17 @@
 
   .cardImage {
     width: 60%;
-    /* height: auto; */
-    /* position: absolute; */
-    /* text-align: center; */
     margin-top: -100px;
+  }
+
+  .title2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .subtitle2 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
   }
 }

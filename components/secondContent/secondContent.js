@@ -16,34 +16,30 @@ function secondContent() {
         <Grid container>
           <Grid xs={12} className="marketingCardGrid">
             <Card className="marketingCard">
-              <Grid xs={12} md={4}>
+              <Grid xs={12} md={3} className="marketingContentGrid">
                 <SecondProps
                   miniImage="./Ellipse.png"
-                  // miniImage2="./world.png"
                   miniTitle="Online Lessons"
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              <Grid xs={12} md={4}>
+              <Grid xs={12} md={3} className="marketingContentGrid">
                 <SecondProps
                   miniImage="./Ellipse 6.png"
-                  // miniImage2="./Vector.png"
                   miniTitle="Genius Test"
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              <Grid xs={12} md={4}>
+              <Grid xs={12} md={3} className="marketingContentGrid">
                 <SecondProps
                   miniImage="./Ellipse 7.png"
-                  // miniImage2="./Vector (1).png"
                   miniTitle="Test & Analysis"
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />
               </Grid>
-              <Grid xs={12} md={3}>
+              <Grid xs={12} md={3} className="marketingContentGrid">
                 <SecondProps
                   miniImage="./Ellipse 8.png"
-                  // miniImage2="./Vector (2).png"
                   miniTitle="Personalized Learning"
                   miniContent="Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem"
                 />

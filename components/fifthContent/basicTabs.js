@@ -50,18 +50,14 @@ export default function BasicTabs() {
 
   return (
     <Box className="mainBox">
-      {/* sx={{ width: "100%" }} */}
       <Box className="classCard">
-        {/* sx={{ borderBottom: 1, borderColor: "divider" }} */}
         <Tabs
+          TabIndicatorProps={{ style: { backgroundColor: "white" } }}
           centered
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          {/* <Grid item xs={12} md={7} className="classGrid"> */}
-          {/* <Card > */}
-          {/* <Grid item xs={12} md={4}> */}
           <Tab
             style={{
               backgroundColor: value === 0 ? "#fff" : "transparent",
@@ -74,8 +70,6 @@ export default function BasicTabs() {
             label="CLASSES 1-4"
             {...a11yProps(0)}
           />
-          {/* </Grid> */}
-          {/* <Grid item xs={12} md={4}> */}
           <Tab
             style={{
               backgroundColor: value === 1 ? "#fff" : "transparent",
@@ -88,8 +82,6 @@ export default function BasicTabs() {
             label="CLASSES 5-8"
             {...a11yProps(1)}
           />
-          {/* </Grid> */}
-          {/* <Grid item xs={12} md={4}> */}
           <Tab
             style={{
               backgroundColor: value === 2 ? "#fff" : "transparent",

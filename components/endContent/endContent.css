@@ -38,25 +38,12 @@
 }
 
 .screens {
-  /* position: relative; */
   width: 100%;
   height: auto;
-  /* margin-top: -150px; */
 }
 
 .whiteContainerDiv {
   margin: auto;
-}
-
-.whiteContainer {
-  width: 90%;
-  height: auto;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background: #ffffff;
 }
 
 .exploreCardGrid {

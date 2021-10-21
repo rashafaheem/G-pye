@@ -19,7 +19,7 @@ function EndContent() {
         <Grid item xs={12} md={9}>
           <img className="screens" src="./screens.png" />
         </Grid>
-        <Grid container className="whiteContainer">
+        <Grid container className="">
           <Grid item xs={12} md={9} className="exploreCardGrid">
             <Card className="exploreCard" elevation={0}>
               <Grid container className="">

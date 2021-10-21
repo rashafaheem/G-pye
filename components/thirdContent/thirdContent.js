@@ -115,7 +115,6 @@ function ThirdContent() {
             </Grid>
           </Card>
           <LongCard />
-
           <br />
           <br />
           <br />
